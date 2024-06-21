@@ -7,4 +7,5 @@ python-dotenv
 langchain-groq
 chainlit
 fastembed
+pysqlite3-binary
 unstructured[md]
