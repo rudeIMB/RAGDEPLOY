@@ -18,8 +18,6 @@ import nest_asyncio  # noqa: E402
 import streamlit as st
 nest_asyncio.apply()
 
-llamaparse_api_key = "llx-RGNfIFYjgNsijUxFkoqVnjDQYRqCkYbh2tYV53LVJFl85BGz"
-groq_api_key = "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"
 
 def set_custom_prompt():
         """
