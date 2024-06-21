@@ -1,3 +1,7 @@
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 from llama_parse import LlamaParse
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
